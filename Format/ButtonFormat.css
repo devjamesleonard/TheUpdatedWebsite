@@ -1,0 +1,101 @@
+
+
+button[id="TransBack"]{
+  width:100%;
+  height:100%;
+  border-style:none;
+}
+button[id="TransBack"]:hover{
+  cursor: default;
+}
+button[id="Menu"]{
+margin-left:2%;
+}
+button[id="Menu2"]{
+  margin-left: 44%;
+}
+
+button[id="Option"]{
+  position : static;
+  margin-top: 5%;
+  background-color: Transparent;
+  /*font-family: "Delicious";
+*/
+font-family: "Impact";
+  font-size:350%;
+  border-style: none;
+  color: white;
+
+}
+
+button[id="Option"]:hover{
+  color:black;
+
+}
+button{
+  cursor:grab;
+}
+div[id="absolutebottom"]{
+  padding-top: 1%;
+padding-right:3%;
+}
+
+
+    button.menus{
+      position : fixed;
+      width: 6%;
+      height: 9%;
+      float: right;
+      background-color:#FF9B00;
+      border-style: none;
+    }
+    button.login{
+      position : fixed;
+      width: 6%;
+      height: 9%;
+      float: right;
+      margin-left: 44%;
+      background-color:#FF9B00;
+      background-image: url("Images/shortlogo.png");
+      color: white;
+      margin-top: 4%;
+      border-style: none;
+
+    }
+    button[id="bottombutton"]{
+     border-style:none;
+     background-color: Transparent;
+     font-size: 120%;
+     color: white;
+
+    }
+    button[id="Instagram"]{
+        background-size: 100%;
+        background-image: url("Images/instagram logo.png");
+                height: 40%;
+    }
+    button[id="Facebook"]{
+        background-size: 100%;
+        background-image: url("Images/facebook logo.png");
+    }
+    button[id="Twitter"]{
+      background-image: url("Images/twitter logo.png");
+        background-size: 100%;
+    }
+    .ImageButton{
+      width: 10%;
+
+        background-color:transparent;
+        border-style:none;
+        padding-bottom: 10%;
+
+    }
+   button[id="bottombutton"]:hover{
+   color:#B4B4B4;
+
+   }
+   button.menus:hover hr[id="buttonbars"]{
+     margin-top:+6%;
+     margin-bottom:+6%
+
+   }

@@ -1,0 +1,67 @@
+div[id = "TopPart"]{
+background-color: #FF9B00;
+width:100%;
+height:15%;
+font-family: "Delicious";
+
+}
+input[id = "texta"]{
+  height: 7%;
+  width: 35%;
+
+  margin-bottom: 1%;
+padding-left: 1%;
+
+  align: center;
+  font-size: 80%;
+
+
+
+}
+div[id= "itemtext"]{
+    font-size:170%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+div[id ="introtext"]{
+ font-style: bold;
+ font-size: 300%;
+ padding-left: 42%;
+background-color: #FF9B00;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+input[id="sub"]{
+  width: 10%;
+  height: 5%;
+  background-color: Transparent;
+  font-family: "Impact";
+  font-size:90%;
+  border-style: none;
+  align: center;
+
+  color: white;
+  padding-bottom: 8%;
+  padding-right: 3%;
+  margin-left: -4%;
+
+}
+button[id="sub"]{
+  width: 10%;
+  height: 5%;
+  background-color: Transparent;
+  font-family: "Impact";
+  font-size:90%;
+  border-style: none;
+  align: center;
+  color: white;
+  padding-bottom: 8%;
+  padding-left: 2%;
+}
+
+div[id="title"]{
+  font-size:250%;
+  padding-left:36%;
+  padding-top: 2%;
+  }

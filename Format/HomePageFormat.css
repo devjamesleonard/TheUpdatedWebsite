@@ -1,0 +1,130 @@
+@font-face {
+    font-family:"D";
+    src:url("Font/Delicous/Delicious.ttf");
+}
+@font-face {
+font-family: "R";
+src:url("Font\\Reqnad\\ReqnadGeometrikBeta0.1-Regular.otf");
+}
+@font-face {
+font-family: "Bubbled";
+src:url("Font/BUBBLE/Bubble Letters.ttf");
+}
+    html, body{
+      position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Georgia";
+
+    }
+    body{
+      overflow:auto;
+      background-color:black;
+
+
+}
+    div[id="TopBar"]{
+      background-image: url("Images/BITFIXFINISH.jpg");
+      background-color:white;
+      background-repeat: no-repeat;
+      background-size:50%;
+      font-size: 150%;
+      width:90%;
+      height:110%;
+    }
+
+    .rectangle{
+      height:100%;
+      width:100%;
+    }
+    div[id="split"]{
+      padding-top:.25%;
+    }
+    div[id="Title"]{
+      padding-top: 23%;
+      font-size: 210%;
+      margin-left:35%;
+    }
+    div[id="SubTitle"]{
+      font-style: italic;
+      font-size: 110%;
+      margin-left:40%;
+    }
+
+    div[id="TransBack"]{
+      float:left;
+      position: fixed;
+      width:100%;
+      height:100%;
+      background-color: white;
+      opacity:.6;
+    }
+    div[id="SideBar"]{
+      background-color:#FF9B00;
+
+      margin-left: 50%;
+      position: fixed;
+      padding-bottom: 50%;
+      margin-bottom: 100%;
+
+    }
+    div[id="LeftSide"]{
+      background-color:#FF9B00;
+      position: fixed;
+      float: left;
+      margin-left: 10%;
+      margin-top:3%;
+
+    }
+
+    div["FullMenu"]{
+      position: fixed;
+      display: none;
+      font-size:100%;
+    }
+    div[id="Header"]{
+      padding-top: 1%;
+      font-size: 180%;
+      margin-left:45%;
+    font-weight: bold;
+
+    }
+    div[id="MidRange"]{
+      background-color: #E75400;
+
+    }
+    div[id="Paragraph"]{
+      overflow: auto;
+      margin-top: 1%;
+      font-size: 120%;
+      margin-left:10%;
+      margin-right: 10%;
+    }
+    div[id="TopRight"]{
+      float: right;
+      overflow:hidden;
+      padding-left:92%;
+      position : fixed;
+    }
+
+    hr[id="buttonbars"]{
+      margin-top: 15%;
+      margin-bottom: 15%;
+      border-style: solid;
+      border-color: white;
+      width: 60%;
+    }
+
+    div[id="bottom"]{
+      background-color: #373535;
+      padding-left: 40%;
+    }
+
+    div[id="Copyright"]{
+      padding-top:.5%;
+      padding-left:1%;
+      color:white;
+}
